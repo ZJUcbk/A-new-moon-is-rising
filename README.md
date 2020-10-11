@@ -1,4 +1,4 @@
 # A-new-moon-is-rising
-basic linux command 
+服务器需要注意事项及可靠操作
 ==
-
+1.跑程序时指定显卡和利用率，避免
