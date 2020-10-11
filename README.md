@@ -1,2 +1,4 @@
 # A-new-moon-is-rising
-test 
+basic linux command 
+==
+
