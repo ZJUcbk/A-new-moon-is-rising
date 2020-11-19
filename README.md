@@ -9,5 +9,7 @@ nvidia-smi 查看服务器显卡使用情况
 误操作可以用ctrl+c结束程序
 
 pytorch 在训练前可以加入
+
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"          【0表示由nvidia-smi查得可用的gpu序号】
