@@ -18,3 +18,5 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"          【0表示由nvidia-smi查得�
 ==
 
 df -h 查看存储空间
+
+htop 查看进程  退出 q
