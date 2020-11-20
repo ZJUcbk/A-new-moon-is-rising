@@ -14,13 +14,15 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"          【0表示由nvidia-smi查得�
 
 **python 限制程序占用内存**
 
-`import signal
+```
+import signal
 import resource
 import os
 
 def limit_memory(maxsize):
     soft, hard = resource.getrlimit(resource.RLIMIT_AS)    
-    resource.setrlimit(resource.RLIMIT_AS, (maxsize, hard)) `
+    resource.setrlimit(resource.RLIMIT_AS, (maxsize, hard)) 
+ ```
 
 ## 常用命令
 
