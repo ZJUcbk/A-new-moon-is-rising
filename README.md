@@ -13,3 +13,8 @@ pytorch 在训练前可以加入
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"          【0表示由nvidia-smi查得可用的gpu序号】
+
+常用命令
+==
+
+df -h 查看存储空间
