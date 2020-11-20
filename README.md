@@ -12,7 +12,7 @@ os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"          【0表示由nvidia-smi查得可用的gpu序号】
 
-**python 限制程序占用内存
+**python 限制程序占用内存**
 
 import signal
 
