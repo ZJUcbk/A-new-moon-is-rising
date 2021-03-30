@@ -8,7 +8,7 @@ nvidia-smi 查看服务器显卡使用情况
 
 pytorch 在训练前可以加入
 ```python 
-os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID
+os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"    ##按照PCI_BUS_ID顺序从0开始排列GPU设备
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"          ##【0表示由nvidia-smi查得可用的gpu序号】
 ```
 **python 限制程序占用内存**
