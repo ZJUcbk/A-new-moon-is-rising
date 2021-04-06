@@ -28,3 +28,10 @@ def limit_memory(maxsize):
 df -h 查看存储空间
 
 htop 查看进程  退出 q
+
+
+## something about files
+
+Deeplearing cheating sheet include some basic concepts of pytorch and python 
+
+There is also a superresolution code with note for you to better understand pytorch
